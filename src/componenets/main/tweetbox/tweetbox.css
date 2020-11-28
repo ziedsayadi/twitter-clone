@@ -1,0 +1,69 @@
+.tweet_box{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid var(--twitter-background);
+}
+.input_control{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.tweet_box > form{
+    display: flex;
+    flex-direction: column;
+}
+.input_control > .avatar{
+    margin-top: 10px;
+}
+.input_control > .input{
+    flex: 1;
+    margin-left: 20px;
+}
+.tweet_box_btn{
+    font-weight: 600 !important;
+    border: none !important;
+    border-radius:30px !important;
+    background-color: var(--twitter-color) !important;
+    color:white !important;
+    text-transform: inherit !important;
+    height: 38px !important ;
+    width: 90px !important;
+    margin-left: auto !important;
+   
+}
+.tweet_box_btn:hover{
+    transition: all 0.3s ease ;
+    transform: scale(1.1);
+}
+.tweet_box .input-container{
+ margin-left: 5px;
+ flex: 1;
+ margin-right: 5px;
+}
+.tweet_box .input-container input{
+    outline-style: none;
+    border: none;
+    width: 80% ;
+}
+.tweet_box .input-container input:hover{
+    border-bottom: 2px solid var(--twitter-color);
+}
+.tweet_box .input-container input:focus{
+    border-bottom: 2px solid var(--twitter-color);
+}
+.upload_btn{
+border: none !important;
+}
+.upload_btn .icon_style{
+ color: #4dc9fa !important;
+ font-size: 30px !important;
+}
+.upload_btn .icon_style:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.15);
+}
+
+.inputupload_controll{
+    display: flex;
+    align-items: center;
+}

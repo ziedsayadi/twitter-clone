@@ -1,0 +1,29 @@
+.widjet{
+    flex:0.3;
+}
+.widjet_search_info{
+    display: flex;
+    align-items: center;
+    padding: 10px
+}
+.widjet_search_info .widjet_search_icon{
+    color: var(--twitter-color);
+    font-size: 25px !important ;
+    margin-left: 10px;
+    padding: 8px;
+}
+.widjet_search_info .textfeild_widjet{
+    flex: 1;
+    border: none;
+}
+.widjet_search_info .textfeild_widjet:hover{
+    outline-style: none;
+    border-bottom: 2px solid var(--twitter-color);
+    transition: all 0.2s ease
+
+}
+.widjet_search_info .textfeild_widjet:focus{
+    outline-style: none;
+    border-bottom: 2px solid var(--twitter-color);
+    
+}

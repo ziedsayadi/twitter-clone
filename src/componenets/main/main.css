@@ -1,0 +1,26 @@
+.main{
+flex: 0.4;
+overflow-y: scroll;
+border-right: 1px solid var(--twitter-background);
+min-width: fit-content;
+}
+/* hide the scroll bar from Chrom / Safari / Opera*/
+.main::-webkit-scrollbar{
+    display: none;
+}
+/* hide the scroll bar from firefox / IE / Edge*/
+.main{
+  -ms-overflow-style: none; /* IE & Edge*/
+  scrollbar-width: none; /* Firefox*/
+}
+.main_header{
+    padding: 15px 20px;
+    border: 1px solid var(--twitter-background);
+    z-index: 100;
+    background-color: #ffff;
+    position: sticky;
+    top: 0;
+}
+.main_header > h3{
+font-weight: 800;
+}
